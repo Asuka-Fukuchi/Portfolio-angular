@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1.5rem;
+    padding: 0 2rem;    
+}
+
+.image {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;           
+    height: auto;          
+    max-width: 300px;      
+    border-radius: 15px;
+    display: block;
+}
+
+.brief-intro {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brief-intro h1 {
+    font-size: 3rem;     
+    font-weight: bold;
+    margin-bottom: 0; 
+}
+
+.brief-intro p:first-of-type {
+    font-size: 2.25rem;
+    font-weight: bold; 
+    color: #6b7280;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.brief-intro p:not(:first-of-type) {
+    font-size: 1rem;       
+    line-height: 1.5;      
+    margin-bottom: 1rem;
+}
+
+.about-btn {
+    display: inline-block;
+    background-color: #272a30;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.about-btn:hover {
+    background-color: #010510;
+    transform: translateY(-2px);
+}
