@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 40px 60px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 3rem; 
+}
+
+.left, .right {
+  width: 50%;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.my-info img {
+  width: 28px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+input[type=text], 
+input[type=email], 
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #272a30;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 5px 10px 8px #888888;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #010510;
+  box-shadow: none;
+  transform: translateY(-2px);
+}
+
+.message form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .left, .right {
+    width: 100%;
+  }
+}
