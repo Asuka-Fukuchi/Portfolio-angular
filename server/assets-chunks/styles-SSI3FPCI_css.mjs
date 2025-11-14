@@ -1,0 +1,2 @@
+export default `html,body{margin:0;padding:0}*,*:before,*:after{box-sizing:border-box}
+`;
