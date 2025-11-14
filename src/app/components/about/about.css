@@ -1,0 +1,139 @@
+:root {
+    --bg: #f8fafb;
+    --card: #ffffff;
+    --muted: #6b7280;
+    --accent: #272a30;
+    --accent-strong: #010510;
+    --gap: 60px;
+}
+
+section {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: calc(var(--gap) / 2) 20px;
+}
+
+section h2 {
+    font-size: 1.6rem;
+    margin: 0 0 0.75rem 0;
+    letter-spacing: 0.2px;
+    color: #0f172a;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+}
+
+/* --- About (self-introduce) --- */
+.self-introduce p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #1f2937;
+    margin: 0 0 1rem 0;
+}
+
+.self-introduce .btn-resume {
+    margin-top: 0.75rem;
+    display: inline-block;
+}
+
+.btn-resume {
+    display: inline-block;
+    background: #272a30;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 5px 10px 8px #888888;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-resume:hover {
+    background-color: #010510;
+    box-shadow: none;
+    transform: translateY(-2px);
+}
+
+/* --- Skills --- */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.skill-card {
+    background: var(--card);
+    padding: 1rem 1.15rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(16, 24, 40, 0.04);
+    transition: transform .14s ease, box-shadow .14s ease;
+    min-height: 120px;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(16, 24, 40, 0.08);
+}
+
+.skill-card h3 {
+    margin: 0 0 .5rem 0;
+    font-size: 1.05rem;
+    color: #0f172a;
+}
+
+.skill-card ul {
+    margin: 0;
+    padding-left: 1rem;
+    color: #374151;
+    font-size: 0.98rem;
+    line-height: 1.6;
+}
+
+/* --- Education / Work cards --- */
+.edu-item,
+.work-item {
+    background: var(--card);
+    padding: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(16, 24, 40, 0.04);
+    margin-bottom: 1rem;
+}
+
+.edu-item h3,
+.work-item h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.05rem;
+    color: #0b1220;
+}
+
+.period {
+    margin: 0 0 0.6rem 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+.edu-item p,
+.work-item p,
+.work-item ul {
+    margin: 0 0 0.6rem 0;
+    color: #374151;
+    font-size: 0.98rem;
+    line-height: 1.6;
+}
+
+.work-item ul {
+    padding-left: 1.1rem;
+}
+
+.work-item li {
+    margin-bottom: 0.4rem;
+}
