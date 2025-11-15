@@ -29,6 +29,7 @@
 
 .nav-items a:hover {
     /* Todo: change color */
+    font-weight: bold;
     color: #f79281; 
     transform: translateY(-2px);
 }
