@@ -10,6 +10,6 @@ export default `<!doctype html>
 <style>html,body{margin:0;padding:0}*,*:before,*:after{box-sizing:border-box}</style><link rel="stylesheet" href="styles-SSI3FPCI.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-SSI3FPCI.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-QOK32OBT.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-2NB2NNGI.js" type="module"></script></body>
 </html>
 `;
