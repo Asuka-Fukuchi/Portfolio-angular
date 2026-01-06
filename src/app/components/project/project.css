@@ -69,3 +69,63 @@
   box-shadow: none;
   border: 2px dashed #ccc;
 }
+
+.project-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+/* Personal */
+.project-type.personal {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+/* Team */
+.project-type.team {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+
+/* School */
+.project-type.school {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0.8rem;
+}
+
+.tech-tags li {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+/* Front-end */
+.tech-tags li.frontend { background-color: #5b7bbd; }
+
+/* Back-end */
+.tech-tags li.backend { background-color: #57a088; }
+
+/* Database */
+.tech-tags li.database { background-color: #de8f07; }
+
+/* Tools */
+.tech-tags li.tools { background-color: #6b7280; }
