@@ -36,7 +36,7 @@ textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color: #272a30;
   color: white;
   font-weight: bold;
@@ -48,7 +48,7 @@ input[type=submit] {
   transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #010510;
   box-shadow: none;
   transform: translateY(-2px);

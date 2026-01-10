@@ -5,21 +5,23 @@
         <div class="my-info">
             <p class="email"><i class="fa-regular fa-envelope"></i> : afukuchi24@gmail.com</p>
             <p class="phone"><i class="fa-solid fa-phone"></i> : 236-501-5146</p>
-            <a href="https://www.linkedin.com/in/asuka-fukuchi/"><img src="images/InBug-Black.png" alt="linkedin"></a>
-            <a href="https://github.com/Asuka-Fukuchi"><img src="images/github-mark.png" alt="linkedin"></a>
+            <a href="https://www.linkedin.com/in/asuka-fukuchi/" target="_blank"><img src="images/InBug-Black.png"
+                    alt="linkedin"></a>
+            <a href="https://github.com/Asuka-Fukuchi" target="_blank"><img src="images/github-mark.png"
+                    alt="linkedin"></a>
         </div>
 
         <div class="message">
-            <form action="/action_page.php">
+            <form action="https://formspree.io/f/xwvvealo" method="POST">
                 <label for="fullname">Your Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Enter your Email" required>
-                <label for="subject">Message</label>
                 <textarea id="subject" name="subject" placeholder="Write your message here" required
                     style="height:170px"></textarea>
+                <!-- your other form fields go here -->
                 <div class="submit-wrapper">
-                    <input type="submit" value="Submit">
+                    <button type="submit">Send</button>
                 </div>
             </form>
         </div>
